@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <h1>To live is to fight, to fight is to live!</h1>
+
+    <table>
+        <thead>
+            <td colspan="4" class="cabecera">
+                <span id="titulo_tabla">STREET FIGHTER</span>
+            </td>
+        </thead>
+        <tr>
+            <td>
+                <img src="img/ken.png" alt="Ken">
+                <span class="personaje">KEN</span>
+            </td>
+            <td>
+                <img src="img/ChunLi.png" alt="ChunLi">
+                <p class="personaje">CHUN LI</p>
+            </td>
+            <td>
+                <img src="img/Zangief.png" alt="Zangief">
+                <p class="personaje">ZANGIEF</p>
+            </td>
+            <td>
+                <img src="img/Dhalsim.png" alt="Dhalsim">
+                <p class="personaje">DHALSIN</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/Ryu.png" alt="Ryu">
+                <p class="personaje">RYU</p>
+            </td>
+            <td>
+                <img src="img/EHonda.png" alt="EHonda">
+                <p class="personaje">E HONDA</p>
+            </td>
+            <td>
+                <img src="img/Blanka.png" alt="Blanka">
+                <p class="personaje">BLANKA</p>
+            </td>
+            <td>
+                <img src="img/Guille.png" alt="Guille">
+                <p class="personaje">GUILLE</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/THawk.png" alt="THawk">
+                <p class="personaje">THAWK</p>
+            </td>
+            <td>
+                <img src="img/Feilong.png" alt="Feilong">
+                <p class="personaje">FEILONG</p>
+            </td>
+            <td>
+                <img src="img/DeeJay.png" alt="DeeJay">
+                <p class="personaje">DEE JAY</p>
+            </td>
+            <td>
+                <img src="img/Cammy.png" alt="Cammy">
+                <p class="personaje">CAMMY</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/Balrog.png" alt="Balrog">
+                <p class="personaje">BALROG</p>
+            </td>
+            <td>
+                <img src="img/Vega.png" alt="Vega">
+                <p class="personaje">VEGA</p>
+            </td>
+            <td>
+                <img src="img/Sagat.png" alt="Sagat">
+                <p class="personaje">SAGAT</p>
+            </td>
+            <td>
+                <img src="img/MBison.png" alt="MBison">
+                <p class="personaje">M BISON</p>
+            </td>
+        </tr>
+
+    </table>
+    <h2>FORMULARIO DE INSCRIPCIÓN PARA JUGAR A STREET FIGHTER</h2>
+    <div id="formulario">
+        <form action="mailto:yomismo@gmail.com">
+
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="nombre">Apellidos:</label>
+                <input type="text" name="Apellidos" id="nombre">
+                <label for="nombre">Dirección Postal:</label>
+                <input type="text" name="Dirección Postal" id="nombre">
+                <label for="nombre">Nick:</label>
+                <input type="text" name="Nick" id="nombre">
+                <label for="nombre">Correo Electrónico:</label>
+                <input type="text" name="Correo Electrónico" id="nombre">
+            </fieldset>
+
+            <fieldset>
+                <legend>SEXO USUARIO</legend>
+                <label class="elegir_sexo"><input type="radio" name="sexo" value="hombre">HOMBRE</label>
+                <label class="elegir_sexo"><input type="radio" name="sexo" value="mujer">MUJER</label>
+                <label class="elegir_sexo"><input type="radio" name="sexo" value="Prefiero">Prefiero no decir</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>PERSONAJES</legend>
+                <select name="personajes">
+                    <option value="1">KEN</option>
+                    <option value="2">CHUNG LI</option>
+                    <option value="3">BLANKA</option>
+                    <option value="4">M BISON</option>
+                    <option value="5">DEE JAY</option>
+                    <option value="6">FEILONG</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>COMENTARIOS:</legend>
+                <textarea placeholder="Escribir un comentario..." maxlength="10"></textarea>
+            </fieldset>
+
+            <div">
+                <input id="botones" type="submit" value="Enviar">
+                <input id="botones" type="reset" value="Borrar">
+    </div>
+    </form>
+    </div>
+
+
+</body>
+
+</html>

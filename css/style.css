@@ -1,0 +1,146 @@
+@font-face {
+    font-family: street;
+    src: url(../font/street.otf)
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cabecera {
+    background-image: url(../img/fondocabecera.jpg);
+    opacity: 0.5;
+}
+
+#titulo_tabla {
+    font-family: street;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+h1 {
+    font-family: 'Street';
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Street';
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px;
+    border-radius: 10px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    margin: auto;
+}
+
+
+tr,
+td {
+    font-weight: bold;
+    font-family: street;
+    color: darkorange;
+    font-size: 18px;
+    border: 2px solid grey;
+    color: darkorange;
+    height: 40px;
+    width: 45px;
+    border-spacing: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.personaje {
+    margin: 1px;
+}
+
+select {
+    width: 100%;
+}
+
+legend {
+    font-family: 'Street';
+    color: darkorange;
+    font-size: 14px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0.4rem;
+    display: inline-block;
+}
+
+.elegir_sexo {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+input {
+    display: inline-block;
+    width: 10rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+#nombre {
+    display: inline-block;
+}
+
+#formulario {
+    height: 1100px;
+    width: 600px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+
+textarea {
+    width: 560px;
+}
+
+#botones {
+    border: 1px;
+    background-color: crimson;
+    font-family: 'Street';
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
